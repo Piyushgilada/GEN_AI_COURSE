@@ -1,13 +1,13 @@
-Bot: News Research Tool
+**Bot:** News Research Tool
 Bot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-Features:-
+**Features:-**
 Load URLs or upload text files containing URLs to fetch article content.
 Process article content through LangChain's UnstructuredURL Loader
 Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
-Usage:-
+**Usage:-**
 1.Run the Streamlit app by executing:
 streamlit run main.py
 2.The web app will open in your browser.
@@ -30,7 +30,8 @@ https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificate
 https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
 https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
-Project Structure :-
+**Project Structure :-**
+
 main.py: The main Streamlit application script.
 requirements.txt: A list of required Python packages for the project.
 faiss_store_openai.pkl: A pickle file to store the FAISS index.
